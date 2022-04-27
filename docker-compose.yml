@@ -1,0 +1,11 @@
+services:
+
+  tree-comments:
+    image: postgres
+    container_name: tree-comments
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=oralcumshot
+      - POSTGRES_DB=tree
+    ports:
+      - 5432:5432
